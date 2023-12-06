@@ -1,19 +1,21 @@
 package ievgeniikravtsov.secondjob;
 
-import org.junit.jupiter.api.Test;
+//import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.notNullValue;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.everyItem;
 
 public class ApiTests {
         String endpoint = "https://jsonplaceholder.typicode.com/users";
 
-        //1.Create a test to verify a http status code:
+        //1.Create a test to verify a https status code:
 //	Send the http request by using the GET method.
 //	The URL is https://jsonplaceholder.typicode.com/users
-//	Validation: status code of the obtained response is 200 OK
-        @Test
+//	Validation: status code of the obtained response is 200 O  K
+        @Test(groups = {"smoke"})
         public void getStatusCode() {
             given()
                     .when()
@@ -27,7 +29,7 @@ public class ApiTests {
 //	The URL is https://jsonplaceholder.typicode.com/users
 //	Validation: - the content-type header exists in the obtained response
 //              - the value of the content-type header is application/json; charset=utf-8
-        @Test
+        @Test(groups = {"regression"})
         public void getHeader() {
             String contentType = "application/json; charset=utf-8";
             given()
@@ -45,7 +47,7 @@ public class ApiTests {
 //	Send the http request by using the GET method:
 //	The URL is https://jsonplaceholder.typicode.com/users
 //	Validation: the content of the response body is the array of 10 users
-        @Test
+        @Test(groups = {"regression"})
         public void getBodyContent() {
             given()
                     .when()
