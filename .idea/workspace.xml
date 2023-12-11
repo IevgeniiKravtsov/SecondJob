@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5081b7e0-5b48-4196-9d59-c5bf32ce02be" name="Changes" comment="Third">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="5081b7e0-5b48-4196-9d59-c5bf32ce02be" name="Changes" comment="finale">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ievgeniikravtsov/secondjob/ApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ievgeniikravtsov/secondjob/ApiTests.java" afterDir="false" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Ievgenii_Kravtsov/IdeaProjects/GoogleCloudCalculator/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -49,9 +49,56 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ievgeniikravtsov.secondjob" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ievgenii_Kravtsov\IdeaProjects\SecondJob\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="ApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ApiTests.getHeader">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="bfdcc83c-a6ae-4c5b-b891-3893719c7fbd" />
+      <option name="artifact" />
+      <option name="autoPort" value="true" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="funcPort" value="0" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="SecondJob" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTests.getBodyContent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SecondJob" />
       <extension name="coverage">
         <pattern>
@@ -61,14 +108,75 @@
       </extension>
       <option name="PACKAGE_NAME" value="ievgeniikravtsov.secondjob" />
       <option name="MAIN_CLASS_NAME" value="ievgeniikravtsov.secondjob.ApiTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="getBodyContent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTests.getHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SecondJob" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ievgeniikravtsov.secondjob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ievgeniikravtsov.secondjob" />
+      <option name="MAIN_CLASS_NAME" value="ievgeniikravtsov.secondjob.ApiTests" />
+      <option name="METHOD_NAME" value="getHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTests.getStatusCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SecondJob" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ievgeniikravtsov.secondjob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ievgeniikravtsov.secondjob" />
+      <option name="MAIN_CLASS_NAME" value="ievgeniikravtsov.secondjob.ApiTests" />
+      <option name="METHOD_NAME" value="getStatusCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScreenShotTest.getPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SecondJob" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ievgeniikravtsov.secondjob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ievgeniikravtsov.secondjob" />
+      <option name="MAIN_CLASS_NAME" value="ievgeniikravtsov.secondjob.ScreenShotTest" />
+      <option name="METHOD_NAME" value="getPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTests" />
+        <item itemvalue="TestNG.ApiTests.getHeader" />
+        <item itemvalue="TestNG.ApiTests.getStatusCode" />
+        <item itemvalue="TestNG.ScreenShotTest.getPageTitle" />
+        <item itemvalue="TestNG.ApiTests.getBodyContent" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701893249426</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finale">
+      <created>1701901892722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701901892722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +235,7 @@
     <MESSAGE value="First" />
     <MESSAGE value="Second" />
     <MESSAGE value="Third" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third" />
+    <MESSAGE value="finale" />
+    <option name="LAST_COMMIT_MESSAGE" value="finale" />
   </component>
 </project>
